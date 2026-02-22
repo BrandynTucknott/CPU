@@ -1,0 +1,4 @@
+General format for compiling + running verilog files
+
+iverilog <FILE NAMES> -o <RENAME>
+./<RENAME>
