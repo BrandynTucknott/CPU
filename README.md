@@ -1,6 +1,7 @@
 TODO:
 * include how to build the NAND gate from transistors
 
+## Repo Outline
 ```
 root
 ├── 8-bit   # building an 8-bit processor
