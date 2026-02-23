@@ -1,5 +1,3 @@
-Initial README for this project. Here for initial commit
-
 ```
 8-bit
 ├── src	 # Verilog source files

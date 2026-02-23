@@ -1,9 +1,26 @@
-Initial README for this project. Here for initial commit
+TODO:
+* include how to build the NAND gate from transistors
 
 ```
-8-bit
-├── src	 # Verilog source files
-├── tb	 # testbenches
-├── sim	 # simulation output (such as waveform dumps and logs)
-└── docs # diagrams, design notes, architecture writeups
+root
+├── 8-bit   # building an 8-bit processor
+└── misc
+    └── completeness
+        ├── gates   # files to build logic gates
+        └── tb_gates # test benches for gates
 ```
+## Miscellanious Notes
+### Completeness
+Even though Icarus Verilog provides users all the necessary logic gates to start building immediately,
+for completness I also build the all the logic gates from the NAND gates. To be transparant, the gates
+themselves are not used in the project, but an implementation is included here for fun.
+
+Gates Built in Logism:
+* BUF
+* NOT
+* NAND
+* AND
+* OR
+* NOR
+* XOR
+* XNOR
