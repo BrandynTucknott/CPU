@@ -15,7 +15,8 @@ Even though Icarus Verilog provides users all the necessary logic gates to start
 for completness I also build the all the logic gates from the NAND gates. To be transparant, the gates
 themselves are not used in the project, but an implementation is included here for fun.
 
-Gates Built in Logism:
+The following gates have been prototyped in Logism and built in Verilog under ```root/misc/completeness/gates```,
+and the diagrams can be seen in ```root/misc/completeness/diagrams```.
 * BUF
 * NOT
 * NAND
