@@ -78,11 +78,11 @@
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(160,50)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
+      <a name="label" val="rs1"/>
     </comp>
     <comp lib="0" loc="(160,70)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="B"/>
+      <a name="label" val="rs2"/>
     </comp>
     <comp lib="0" loc="(160,90)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -91,7 +91,7 @@
     <comp lib="0" loc="(260,70)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="Sum"/>
+      <a name="label" val="rd"/>
       <a name="type" val="output"/>
     </comp>
     <comp lib="0" loc="(350,140)" name="Pin">
@@ -139,7 +139,7 @@
     </comp>
     <comp lib="0" loc="(210,120)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
+      <a name="label" val="rs1"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(210,120)" name="Splitter">
@@ -148,7 +148,7 @@
     </comp>
     <comp lib="0" loc="(210,220)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="B"/>
+      <a name="label" val="rs2"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(210,220)" name="Splitter">
@@ -164,7 +164,7 @@
     <comp lib="0" loc="(770,30)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="Sum"/>
+      <a name="label" val="rd"/>
       <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
@@ -291,12 +291,12 @@
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(350,210)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
+      <a name="label" val="rs1"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(350,230)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="B"/>
+      <a name="label" val="rs2"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(350,250)" name="Pin">
@@ -306,7 +306,7 @@
     <comp lib="0" loc="(570,210)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="Sum"/>
+      <a name="label" val="rd"/>
       <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
@@ -315,6 +315,9 @@
       <a name="facing" val="west"/>
       <a name="label" val="CarryOut"/>
       <a name="type" val="output"/>
+    </comp>
+    <comp lib="9" loc="(450,130)" name="Text">
+      <a name="text" val="Signed vs unsigned does not matter for integer addition/substraction"/>
     </comp>
     <comp loc="(570,210)" name="fullAdder8"/>
   </circuit>
@@ -339,12 +342,12 @@
     </comp>
     <comp lib="0" loc="(340,200)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
+      <a name="label" val="rs1"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(340,230)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="B"/>
+      <a name="label" val="rs2"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(340,230)" name="Splitter">
@@ -737,7 +740,7 @@
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(290,230)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
+      <a name="label" val="rs1"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(290,230)" name="Splitter">
@@ -746,7 +749,7 @@
     </comp>
     <comp lib="0" loc="(290,320)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="B"/>
+      <a name="label" val="rs2"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(290,320)" name="Splitter">
@@ -756,7 +759,7 @@
     <comp lib="0" loc="(570,240)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="O"/>
+      <a name="label" val="rd"/>
       <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
@@ -944,7 +947,7 @@
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(290,230)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
+      <a name="label" val="rs1"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(290,230)" name="Splitter">
@@ -953,7 +956,7 @@
     </comp>
     <comp lib="0" loc="(290,320)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="B"/>
+      <a name="label" val="rs2"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(290,320)" name="Splitter">
@@ -963,7 +966,7 @@
     <comp lib="0" loc="(560,240)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="O"/>
+      <a name="label" val="rd"/>
       <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
@@ -1144,7 +1147,7 @@
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(290,230)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
+      <a name="label" val="rs1"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(290,230)" name="Splitter">
@@ -1153,7 +1156,7 @@
     </comp>
     <comp lib="0" loc="(290,320)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="B"/>
+      <a name="label" val="rs2"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(290,320)" name="Splitter">
@@ -1163,7 +1166,7 @@
     <comp lib="0" loc="(560,240)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="O"/>
+      <a name="label" val="rd"/>
       <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
@@ -1344,14 +1347,14 @@
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(340,280)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="rd"/>
+      <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(340,280)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="label" val="O"/>
-      <a name="type" val="output"/>
+      <a name="label" val="rs1"/>
       <a name="width" val="8"/>
     </comp>
   </circuit>
@@ -1360,15 +1363,32 @@
     <a name="circuit" val="integerDivide8"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(290,230)" name="Pin">
+    <comp lib="0" loc="(1020,410)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q"/>
+      <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="0" loc="(290,270)" name="Pin">
+    <comp lib="0" loc="(1020,450)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="B"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="R"/>
+      <a name="type" val="output"/>
       <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(150,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="rs1"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(150,250)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="rs2"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="9" loc="(200,125)" name="Text">
+      <a name="text" val="Computes A / B to have quotient Q and remainder R"/>
     </comp>
   </circuit>
   <circuit name="lshft8">
@@ -1378,7 +1398,7 @@
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(230,230)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
+      <a name="label" val="rs1"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(230,230)" name="Splitter">
@@ -1388,7 +1408,7 @@
     <comp lib="0" loc="(290,220)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="O"/>
+      <a name="label" val="rd"/>
       <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
@@ -1416,7 +1436,7 @@
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(210,230)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
+      <a name="label" val="rs1"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(210,230)" name="Splitter">
@@ -1426,7 +1446,7 @@
     <comp lib="0" loc="(270,240)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="O"/>
+      <a name="label" val="rd"/>
       <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
@@ -1455,7 +1475,7 @@
     <comp lib="0" loc="(240,130)" name="Constant"/>
     <comp lib="0" loc="(250,220)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
+      <a name="label" val="rs1"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(250,220)" name="Splitter">
@@ -1465,7 +1485,7 @@
     <comp lib="0" loc="(290,210)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="O"/>
+      <a name="label" val="rd"/>
       <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
@@ -1484,7 +1504,7 @@
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(260,140)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
+      <a name="label" val="rs1"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(260,140)" name="Splitter">
@@ -1497,7 +1517,7 @@
     <comp lib="0" loc="(300,150)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="O"/>
+      <a name="label" val="rd"/>
       <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
@@ -1924,5 +1944,221 @@
       <a name="size" val="20"/>
     </comp>
     <wire from="(250,140)" to="(250,150)"/>
+  </circuit>
+  <circuit name="slt8">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="slt8"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(290,190)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(290,270)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="B"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(490,150)" name="Constant"/>
+    <comp lib="0" loc="(510,170)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="9" loc="(275,66)" name="Text">
+      <a name="text" val="Compliment INT(1) = 1111 1111"/>
+    </comp>
+    <comp lib="9" loc="(277,88)" name="Text">
+      <a name="text" val="Compliment INT(-1) = 0000 0001"/>
+    </comp>
+    <comp lib="9" loc="(451,47)" name="Text">
+      <a name="text" val="Two's Complement must be performed before operating and before returning"/>
+    </comp>
+    <comp loc="(510,190)" name="not8"/>
+    <comp loc="(510,270)" name="not8"/>
+    <comp loc="(750,190)" name="fullAdder8"/>
+    <comp loc="(750,270)" name="fullAdder8"/>
+    <comp loc="(990,250)" name="fullAdder8"/>
+    <wire from="(490,100)" to="(490,110)"/>
+    <wire from="(490,110)" to="(490,120)"/>
+    <wire from="(490,120)" to="(490,130)"/>
+    <wire from="(490,130)" to="(490,140)"/>
+    <wire from="(490,140)" to="(490,150)"/>
+    <wire from="(490,150)" to="(490,160)"/>
+    <wire from="(490,90)" to="(490,100)"/>
+    <wire from="(510,170)" to="(510,190)"/>
+    <wire from="(510,190)" to="(510,210)"/>
+    <wire from="(510,190)" to="(530,190)"/>
+    <wire from="(510,210)" to="(510,270)"/>
+    <wire from="(510,210)" to="(530,210)"/>
+    <wire from="(510,270)" to="(510,290)"/>
+    <wire from="(510,270)" to="(530,270)"/>
+    <wire from="(510,290)" to="(530,290)"/>
+    <wire from="(750,190)" to="(760,190)"/>
+    <wire from="(750,270)" to="(770,270)"/>
+    <wire from="(760,190)" to="(760,250)"/>
+    <wire from="(760,250)" to="(770,250)"/>
+  </circuit>
+  <circuit name="not8">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="not8"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(260,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="rs1"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(260,210)" name="Splitter">
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(320,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="rd"/>
+      <a name="type" val="output"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(320,210)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="1" loc="(300,130)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(300,140)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(300,150)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(300,160)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(300,170)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(300,180)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(300,190)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(300,200)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+  </circuit>
+  <circuit name="sltu8">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="sltu8"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(1030,340)" name="Splitter">
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(1120,340)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="rd"/>
+      <a name="type" val="output"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(1120,340)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(290,250)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="rs1"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(290,270)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="rs2"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(350,330)" name="Constant"/>
+    <comp lib="0" loc="(420,310)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(980,250)" name="Splitter">
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(980,270)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="1" loc="(1090,250)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(390,330)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="9" loc="(1047,390)" name="Text">
+      <a name="text" val="8-bit output since eventually the instruction will require a destination register"/>
+    </comp>
+    <comp lib="9" loc="(148,98)" name="Text">
+      <a name="text" val="rs1 &lt; rs2 ? 1 : 0"/>
+    </comp>
+    <comp lib="9" loc="(201,76)" name="Text">
+      <a name="text" val="For unsigned: A - B = A + (~B + 1)"/>
+    </comp>
+    <comp lib="9" loc="(451,47)" name="Text">
+      <a name="text" val="Two's Complement must be performed before operating and before returning (UNSIGNED INPUTS)"/>
+    </comp>
+    <comp lib="9" loc="(850,198)" name="Text">
+      <a name="text" val="If rd[7] is set: A - B &lt; 0"/>
+    </comp>
+    <comp lib="9" loc="(855,217)" name="Text">
+      <a name="text" val="If rd[7] is not: A - B &gt;= 0"/>
+    </comp>
+    <comp loc="(510,270)" name="not8"/>
+    <comp loc="(740,270)" name="fullAdder8"/>
+    <comp loc="(980,250)" name="fullAdder8"/>
+    <wire from="(1000,240)" to="(1060,240)"/>
+    <wire from="(1050,260)" to="(1060,260)"/>
+    <wire from="(1050,270)" to="(1100,270)"/>
+    <wire from="(1050,280)" to="(1100,280)"/>
+    <wire from="(1050,290)" to="(1100,290)"/>
+    <wire from="(1050,300)" to="(1100,300)"/>
+    <wire from="(1050,310)" to="(1100,310)"/>
+    <wire from="(1050,320)" to="(1100,320)"/>
+    <wire from="(1050,330)" to="(1100,330)"/>
+    <wire from="(1090,250)" to="(1100,250)"/>
+    <wire from="(1100,250)" to="(1100,260)"/>
+    <wire from="(290,250)" to="(760,250)"/>
+    <wire from="(350,330)" to="(360,330)"/>
+    <wire from="(360,320)" to="(360,330)"/>
+    <wire from="(360,320)" to="(400,320)"/>
+    <wire from="(360,330)" to="(370,330)"/>
+    <wire from="(390,330)" to="(400,330)"/>
+    <wire from="(400,330)" to="(400,340)"/>
+    <wire from="(400,340)" to="(400,350)"/>
+    <wire from="(400,350)" to="(400,360)"/>
+    <wire from="(400,360)" to="(400,370)"/>
+    <wire from="(400,370)" to="(400,380)"/>
+    <wire from="(400,380)" to="(400,390)"/>
+    <wire from="(420,310)" to="(430,310)"/>
+    <wire from="(430,310)" to="(430,350)"/>
+    <wire from="(430,310)" to="(510,310)"/>
+    <wire from="(430,350)" to="(770,350)"/>
+    <wire from="(510,270)" to="(520,270)"/>
+    <wire from="(510,290)" to="(510,310)"/>
+    <wire from="(510,290)" to="(520,290)"/>
+    <wire from="(740,270)" to="(760,270)"/>
+    <wire from="(770,340)" to="(1030,340)"/>
+    <wire from="(770,340)" to="(770,350)"/>
   </circuit>
 </project>
